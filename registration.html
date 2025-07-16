@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+  <form class="bg-white border rounded-lg shadow-xl p-8 w-full max-w-md">
+    <h1 class="text-center font-semibold text-blue-600 text-2xl mb-6">Registration Form</h1>
+    <input type="text" placeholder="Enter your name" class="border border-gray-300 rounded p-2 mb-4 w-full">
+    <input type="number" placeholder="Enter your age" class="border border-gray-300 rounded p-2 mb-4 w-full">
+    <input type="email" placeholder="Enter your email" class="border border-gray-300 rounded p-2 mb-4 w-full">
+    <input type="password" placeholder="Enter your password" class="border border-gray-300 rounded p-2 mb-4 w-full">
+    <input type="tel" placeholder="Enter your Mobile no." class="border border-gray-300 rounded p-2 mb-4 w-full">
+    <div class="mb-4">
+      <label class="mr-4">Gender:</label>
+      <label class="inline-flex items-center mr-4">
+        <input type="radio" name="gender" value="male" class="mr-1">
+        Male
+      </label>
+      <label class="inline-flex items-center">
+        <input type="radio" name="gender" value="female" class="mr-1">
+        Female
+      </label>
+    </div>
+    <input type="datetime-local" class="border border-gray-300 rounded p-2 mb-6 w-full">
+    <div class="flex justify-between">
+      <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white rounded px-4 py-2">Register</button>
+      <button type="reset" class="bg-gray-400 hover:bg-gray-500 text-white rounded px-4 py-2">Reset</button>
+    </div>
+  </form>
+</body>
+</html>
